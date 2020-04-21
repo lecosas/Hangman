@@ -13,6 +13,8 @@
 		4366427C244DCD0F00AAF030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4366427A244DCD0F00AAF030 /* Main.storyboard */; };
 		4366427E244DCD1000AAF030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4366427D244DCD1000AAF030 /* Assets.xcassets */; };
 		43664281244DCD1000AAF030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4366427F244DCD1000AAF030 /* LaunchScreen.storyboard */; };
+		43664289244DCD9F00AAF030 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43664288244DCD9F00AAF030 /* start.txt */; };
+		437125C5244FA5EC001D45D3 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437125C4244FA5EC001D45D3 /* String+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4366427D244DCD1000AAF030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43664280244DCD1000AAF030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43664282244DCD1000AAF030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43664288244DCD9F00AAF030 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		437125C4244FA5EC001D45D3 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 				4366427A244DCD0F00AAF030 /* Main.storyboard */,
 				4366427D244DCD1000AAF030 /* Assets.xcassets */,
 				4366427F244DCD1000AAF030 /* LaunchScreen.storyboard */,
+				43664288244DCD9F00AAF030 /* start.txt */,
 				43664282244DCD1000AAF030 /* Info.plist */,
+				437125C4244FA5EC001D45D3 /* String+extension.swift */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43664281244DCD1000AAF030 /* LaunchScreen.storyboard in Resources */,
+				43664289244DCD9F00AAF030 /* start.txt in Resources */,
 				4366427E244DCD1000AAF030 /* Assets.xcassets in Resources */,
 				4366427C244DCD0F00AAF030 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437125C5244FA5EC001D45D3 /* String+extension.swift in Sources */,
 				43664279244DCD0F00AAF030 /* ViewController.swift in Sources */,
 				43664275244DCD0F00AAF030 /* AppDelegate.swift in Sources */,
 				43664277244DCD0F00AAF030 /* SceneDelegate.swift in Sources */,
